@@ -1,0 +1,101 @@
+<!doctype html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Домашняя страничка Яковлевой Анастасии</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
+body {
+background-color: #f0f2f5;
+}
+header {
+background-color: #4a76a8;
+color: white;
+text-align: center;
+padding: 20px;
+}
+footer {
+background-color: #ffffff;
+text-align: center;
+padding: 10px;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>Яковлева Анастасия</h1>
+<img src="avatar.jpg" alt="Аватар" style="border-radius: 70%; width: 150px;">
+</header>    
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<div class="container-fluid">
+<a class="navbar-brand" href="#">Навигация</a>
+<ul class="navbar-nav">
+<li class="nav-item">
+<a class="nav-link" href="group.html">Моя группа</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="university.html">Мой вуз</a>
+</li>
+</ul>
+</div>
+</nav> 
+<main class="container mt-4">
+<h2>Обо мне</h2>
+<p>Ваши увлечения: чтение, путешествия, программирование</p>   
+<!-- Карусель -->
+<div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+<div class="carousel-inner">
+<div class="carousel-item active">
+<img src="slide1.jpg" class="d-block w-100" alt="Слайд 1" style="height: 400px; object-fit: cover;">
+</div>
+<div class="carousel-item">
+<img src="slide2.jpg" class="d-block w-100" alt="Слайд 2" style="height: 400px; object-fit: cover;">
+</div>
+<div class="carousel-item">
+<img src="slide3.jpg" class="d-block w-100" alt="Слайд 3" style="height: 400px; object-fit: cover;">
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Предыдущий</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Следующий</span>
+</button>
+</div>
+<!-- Таблица -->
+<h3 class="mt-4">Мои увлечения</h3>
+<table class="table table-striped">
+<thead>
+<tr>
+<th>Увлечение</th>
+<th>Описание</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Чтение</td>
+<td>В основном русской литературы</td>
+</tr>
+<tr>
+<td>Путешествия</td>
+<td>Посещение различных городов и получение новых впечатлений.</td>
+</tr>
+<tr>
+<td>Программирование</td>
+<td>Изучение новых языков программирования.</td>
+</tr>
+</tbody>
+</table>
+</main>   
+<footer>
+<p>Дата создания страницы: 12.11.2024</p>
+</footer>
+<script>
+document.getElementById('date').innerText = new Date().toLocaleDateString();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
